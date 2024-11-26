@@ -1,6 +1,6 @@
 export default function Signin() {
     return (
-        <div>
+        <div className="bg-gray-500">
             hello from signin page
         </div>
     )

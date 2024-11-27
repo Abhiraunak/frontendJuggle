@@ -16,12 +16,18 @@ export default function signup(){
                     <Inputbox placeholder={"........."} label="Password" />
 
                     <div className="pt-4">
-                        <Button label="Sign up" />
+                        <Button label="Sign up" onClick={handleSignUpClick} />
                     </div>
                     <BottomWarning label="Already have an account?" buttonText="Sign In" to={"/signin"} />
                 </div>
             </div>
            
         </div>
+    )
+}
+
+function handleSignUpClick(){
+    return (
+        alert("It still remain")
     )
 }

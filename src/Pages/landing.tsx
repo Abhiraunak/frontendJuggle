@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from '../assets/devphoto.png';
 export default function Landing(){
     return (
-        <div className="main w-full h-screen bg-rose-50 font-['gilroy']">
+        <div className="main w-full h-screen bg-gradient-to-r from-cyan-200 via-sky-100 to-indigo-200 font-['gilroy']">
             <div className="container relative mx-auto h-screen">
                 <div className="navbar flex justify-between items-center w-full py-6 px-4">
                     <div className="font-semibold">

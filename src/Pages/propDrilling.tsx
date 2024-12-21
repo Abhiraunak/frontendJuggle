@@ -1,6 +1,6 @@
 
-import { Heading } from "../Components/heading";
-import { Button } from "../Components/button";
+import { Heading } from "../Components/Heading";
+import { Button } from "../Components/Button";
 import {
     RecoilRoot,
     atom,

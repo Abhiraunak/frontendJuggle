@@ -1,8 +1,8 @@
-import { Heading } from "../Components/heading";
+import { Heading } from "../Components/Heading";
 import { Subheading } from "../Components/Subheading";
-import { Inputbox } from "../Components/inputBox";
-import { Button } from "../Components/button";
-import { BottomWarning } from "../Components/bottomWarning";
+import { Inputbox } from "../Components/InputBox";
+import { Button } from "../Components/Button";
+import { BottomWarning } from "../Components/BottomWarning";
 export default function Signin() {
     return (
         <div className="bg-gray-200 h-screen flex justify-center">

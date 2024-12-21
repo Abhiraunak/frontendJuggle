@@ -7,6 +7,7 @@ import Signin from './Pages/signin';
 import Signup from './Pages/signup';
 import Prop from './Pages/propDrilling';
 import Assignment from './Pages/assignment';
+import Form from './Pages/FormHandling';
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signin" element={<Signin />}/>
         <Route path="/signup" element={<Signup />}/>
         <Route path="/prop" element={<Prop />} />
+        <Route path="/form" element={<Form />} />
       </Routes>
     </BrowserRouter>
 

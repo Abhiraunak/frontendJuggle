@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Cards from "../Components/cards";
+import Cards from "../Components/Cards";
 import Forms from "../Components/Forms";
 
 function FormHandling() {
